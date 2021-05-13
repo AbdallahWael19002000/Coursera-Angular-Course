@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="MyFirstApp">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
+    <title>First Project</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <div ng-controller="control1">
+         {{name}}
+          <br>
+         {{SayHelloWorld()}}
+         <br>
+         <input type="text" ng-model="value">
+         The Current value for value is :{{value}}
+    </div>
+
+  </body>
+</html>
